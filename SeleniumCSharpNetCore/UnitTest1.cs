@@ -17,6 +17,8 @@ namespace SeleniumCSharpNetCore
         public void Test1()
         {
             Driver.Url = "http://executeautomation.com/sign-in";
+            
+            Assert.Fail();
             Assert.Pass();
         }
     }
